@@ -6,4 +6,6 @@ dependencies {
     compile project(":components:users")
     compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
     compile "io.pivotal.spring.cloud:spring-cloud-services-starter-circuit-breaker"
+    compile "org.springframework.security.oauth.boot:spring-security-oauth2-autoconfigure:$springSecurityOAuthAutoconfigVersion"
+    compile "io.pivotal.spring.cloud:spring-cloud-sso-connector:$springCloudSsoVersion"
 }
